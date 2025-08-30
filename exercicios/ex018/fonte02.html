@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'rocket';
+            src: url("/fonts/Playfull\ Rocket.ttf") format("opentype"), url('/fonts/Playfull\ Rocket.ttf') format('truetype'); 
+            font-weight: normal;
+            font-style: normal;
+
+            /* 
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced typography)
+                - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1, p {
+            font-family: 'rocket', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odio repellat maxime qui asperiores sit eveniet assumenda! Non nemo beatae nulla porro, fugiat necessitatibus, ipsam voluptates eos inventore rerum nostrum.</p>
+</body>
+</html>
