@@ -1,0 +1,23 @@
+Capitulo 13 Cores{
+
+aula 01: Psicologia das cores -> Ter cuidado na escolha das cores no site, cores transmitem emoções e impressões, pesquisar uma bola paleta de cores para o proposito do site.
+
+aula 02: Contraste das cores -> Existe vários formas de representar as cores, por nome, hexadecimal, rgb, hsl e rgba. Mais funcional é pegar as cores em códigos hexadecimais. Também existe maneiras de configurar a transparência das cores.
+
+aula 03: usar "Adobe Colar" e "coolors" para fazer paleta de cores, tbm existe sugestões de cores.  
+
+aula 07: para fazer degrade usar a propriedade background-image: objeto ->linear-gradiente(direção to right, cores...);
+	
+}
+
+Capitulo 14 fonts {
+    aula 10: alinhamento de textos -> usar "text-align: center;" para centralizar o texto, ou justificar, colocar para esquerda ou direita, como no word. Usar "text-indent: 30px;" para colocar espaço do paragrafo 
+}
+
+Capítulo 15 seletores personalizados{
+	aula 01 -> seletores em HTML é id = em CSS é # e em class = em CSS é .
+para chamar um seletor no css #nomeSeletorId ou .nomeSeletorClass e a modificação será feita em tudo aquilo que pertencer ao seletor. 
+	
+	aula 02 -> diferença e quando usar os seletores, class e id, class pode ser atribuída a vários elementos e id a apenas um na mesma página, em outro documento html pode ter outro id de mesmo nome. A class vem antes do id, mas sempre herdam tudo das configurações anteriores.
+
+}
