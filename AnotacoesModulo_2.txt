@@ -20,4 +20,6 @@ para chamar um seletor no css #nomeSeletorId ou .nomeSeletorClass e a modificaç
 	
 	aula 02 -> diferença e quando usar os seletores, class e id, class pode ser atribuída a vários elementos e id a apenas um na mesma página, em outro documento html pode ter outro id de mesmo nome. A class vem antes do id, mas sempre herdam tudo das configurações anteriores.
 
+	aula 03 -> pseudo-classe são representadas por ":", deve estar relacionada ao estado de um elemento, exemplo: div:hover. ela monitora o mouse e se o mouse passar por cima da div ele faz um evento. Usar "div > p" para dizer que o p esta dentro da div, quase como um envelopamento.
+
 }
